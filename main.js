@@ -1,14 +1,24 @@
 $(document).ready(function() {
-    $('#example').DataTable({
-        columnDefs: [
-            {
-                orderable: false,
-                className: 'select-checkbox',
-                targets: 0,
-            },
-        ],
+    var table = $('#example').DataTable({
+        ajax: 'data.json',
         select: {
             style: 'multi',
         },
+        columns: [
+            {
+                data: 'nama',
+            },
+            {
+                data: 'umur',
+            },
+            {
+                data: 'fokus',
+            },
+        ],
     });
+    $('#reload').on('click', function(e) {
+        e.preventDefault();
+        table.ajax.reload(null, false);
+    })
 })
+

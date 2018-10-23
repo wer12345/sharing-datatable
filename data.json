@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "nama": "Sigit",
+            "umur": 18,
+            "fokus": "Back-End"
+        },
+        {
+            "nama": "Anwar",
+            "umur": 23,
+            "fokus": "Back-End"
+        },
+        {
+            "nama": "Rijal",
+            "umur": 15,
+            "fokus": "Back-End"
+        },
+        {
+            "nama": "Kode Keras",
+            "umur": 19,
+            "fokus": "Back-End"
+        },
+        {
+            "nama": "Ari",
+            "umur": 18,
+            "fokus": "Android"
+        },
+        {
+            "nama": "Khalid",
+            "umur": 19,
+            "fokus": "Front-End"
+        },
+        {
+            "nama": "Aziz",
+            "umur": 28,
+            "fokus": "Front-End"
+        }
+    ]
+}
